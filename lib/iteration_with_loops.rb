@@ -5,7 +5,7 @@ def find_min_in_nested_arrays(src)
     element_index = 0 
     smallest_num = nil
     while element_index < src[row_index].count do
-      if smallest_num == nil || src[row_index][element_index] < smallest_num.to_i
+      if smallest_num == nil || src[row_index][element_index] < smallest_num
           smallest_num = src[row_index][element_index]
       end 
       element_index += 1 
